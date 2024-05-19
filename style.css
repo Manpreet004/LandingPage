@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+.nav-lnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px ;
+}
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px ;
+}
+#nav h1{
+    font-weight: 500px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#btn1{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+
+}
+#btn2{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: orangered;
+    color: #fff;
+}
+#main>h1{
+    width: 100%;
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    font-weight: 100;
+}
+img{
+    height: 400px;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#socialmedia{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+}
+#socialmedia i{
+    font-size: 25px;
+}
+#footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+#bottoml{
+    padding-left: 50px;
+    font-size: 15px;
+}
+#bottomr{
+    padding-right: 5%;
+    font-size: 15px;
+}
+#footer i {
+    font-size: 25px;
+    overflow: hidden;
+    object-position: top;
+}
